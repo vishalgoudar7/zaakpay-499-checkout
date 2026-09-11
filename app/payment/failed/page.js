@@ -1,0 +1,1 @@
+export default function Failed({ searchParams }) { return <main><section className="card result"><span className="cross">×</span><h1>Payment not completed</h1><p>Your order is saved. You can try again.</p><p className="order">Order: {searchParams.order || '—'}</p><a href="/">Try payment again</a></section></main>; }

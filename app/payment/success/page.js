@@ -1,0 +1,1 @@
+export default function Success({ searchParams }) { return <main><section className="card result"><span className="tick">✓</span><h1>Payment successful</h1><p>Your ₹499 payment has been received.</p><p className="order">Order: {searchParams.order || '—'}</p><a href="/">Back to checkout</a></section></main>; }
